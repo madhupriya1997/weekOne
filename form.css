@@ -1,0 +1,33 @@
+html{
+    background: transparent;
+}
+.container { 
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+  }
+  .content
+  {
+    /*background:palevioletred;*/
+    border-radius: 5px;
+    box-shadow: 0 1.5px 0 0 gray;
+    width:650px;
+    height : 100%;
+    padding : 5px;
+    margin : 5px;
+  }
+  div label
+  {
+      font-size: 15px;
+      margin : 2px;
+  }
+  input,button,select {
+    font-size: 15px;
+    padding : 10px;
+    width : 100%;
+    border: 2px solid grey;
+    margin : 5px;
+  }
+ 

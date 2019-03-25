@@ -1,0 +1,159 @@
+<html>
+    <head>
+        <title>Mpm</title> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="career.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="form.js"></script>
+    </head>
+    <body>
+        <header>
+                <div class="top-header">
+                        <div id="logo">                
+                                <img src="logo.png" width="25%">
+                        </div>
+                        <div>
+                            <nav class="navClass">
+                                <ul class="top-header menu">
+                                    <li><a href="index.html">Home</a></li>
+                                    <li>About
+                                        <ul class="sub-menu">
+                                            <li><a href="career.html">Career</a></li>
+                                            <li><a href="product.html">Products</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#footer">Contact</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        </div>
+        </header>
+        <section  class="contain">
+            <div class="container">
+                <div>
+                <h3>Assistant Project Manager</h3>
+                <p>Project Management</p>
+             </div>
+                <div><p>5-8 years</p></div>
+                <div><span id="show-modal">View Job</span></div>
+            </div>
+            <div class="container">
+                <div>
+                    <h3>AWS Developer</h3>
+                    <p>Amazon Web Services Development</p>
+                </div>
+                 <div><p>2-3 years</p></div>
+                   <div> <span id="show-modal">View Job</span></div>
+            </div>
+            <div class="container">
+                <div >
+                    <h3>Product Marketing Executive</h3>
+                    <p>Marketing Executive</p>
+                </div>
+                 <div> <p>2-5 years</p></div>  
+                <div> <span id="show-modal">View Job</span></div>
+                </div>
+        </section>
+        <section  id="form" class="modal modal--hidden">
+                <div class="modal__contents">
+            <form  id="careerForm">
+                    <div class="modal__close-bar">
+                            <span>X</span>
+                    </div>
+                    <div>
+                            <!--<label>Name</label>-->
+                            <input type="text" id="name" name="Name" minlength="3" placeholder="Name" required=""><br/>
+                        </div>
+                        <div>
+                            <!--<label>Email Id</label>-->
+                            <input type="email" name="email" id="emailId" placeholder="Email Id" required=""><br/>
+                        </div>
+                        <div>
+                            <!--<label>Qualification</label>-->
+                            <input type="text" name="qualification" id="degree" placeholder="Qualification" required=""><br/>
+                        </div>
+                        <div>
+                                <!--<label>Designation</label>-->
+                                <input type="text" name="Role" id="Role" placeholder="Role" required="" required=""><br/>
+                            </div>
+                        <div>
+                            <!--<label>Experience</label>-->
+                            <input type="number" name="experience" id="exposure" placeholder="Experience" required="" maxlength="2" required=""><br/>
+                        </div>
+                        <div>
+                            <!--<label>Contact</label>-->
+                            <input type="text" name="Contact" id="contact" maxlength="10" placeholder="Contact" required=""><br/>
+                        </div>
+                        <div>
+                            <!--<label>Upload Resume</label>-->
+                            <input type="file" name="Resume" id="resume" placeholder="Upload Resume"><br/>
+                        </div>
+                            <button style="margin:15px 0px 25px 0px;">Submit</button>
+                           <div class="alert">Applied successfully</div>
+            </form>
+        </div>
+    </section>
+
+        <footer id="footer">
+        <div class="Content">
+            <section class="footerContent">
+            <div>
+                <h3>Company</h3>
+                <hr>
+            </div>
+            <div>
+                <ul>
+                    <li><a href="home.html">About Us</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="careers.html">Careers</a></li>
+                </ul>
+            </div>
+            </section>
+            <section class="footerContent">
+            <div>
+                <h3>Social</h3>
+                <hr>
+            </div>
+                <ul>
+                    <li><a href="#" class="fa fa-linkedin"><span>Linked In</span></a></li>
+                    <li><a href="#" class="fa fa-facebook"><span>Facebook</span></a></li>
+                </ul>
+            </section>
+            <section class="footerContent">
+                <div>
+                <h3>Contact</h3>
+                <hr>
+            </div>
+            <div class="Content address">
+            <div>
+               <p>Hyderabad Office<br/>
+                    Office No - 416,<br/>
+                    Manjeera Majestic Commercial,<br/>
+                    KPHB Road,<br/>
+                    Kukatpally, Hyderabad- 500085,<br/>
+                    Telangana, India<br/>
+                    +91 40 4855 1939</p>
+            </div>  
+            <div>   
+                <p>Coimbatore Office<br/>
+                    Office No - 112, Third Floor<br/>
+                    5th Street, Extn,<br/>
+                    100 Feet Road, Gandhipuram,<br/>
+                    Coimbatore- 641012,<br/>
+                    Tamil Nadu, India.<br/>
+                    +91 422 420 3619</p>
+                </div> 
+            </div>
+        </section>
+        </div>
+            <div class="Content last">
+                <p>Acheron Software Consultancy Pvt. Ltd. Copyright © 2018. All rights reserved</p>
+                <p><i class="fa fa-envelope-o"></i>contact@acheron-tech.com</p>
+            </div>
+        </footer>
+        <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase.js"></script>
+        <script src="career.js"></script>
+    </body>
+</html>

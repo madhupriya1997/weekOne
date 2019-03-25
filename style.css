@@ -1,0 +1,92 @@
+.top-header
+{
+    display : flex;
+    align-items: baseline;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-left: 20px;
+    padding-right : 20px;
+}
+#logo
+{
+    margin-top : 30px;
+}
+.home
+{
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding : 10px;
+    font-size: 17px;  
+    text-align: justify;
+}
+.menu
+{
+    padding : 0px;
+    font-size: 25px;
+    list-style: none;
+}
+.sub-menu
+{
+    opacity: 0;
+}
+ul.sub-menu li:hover{
+    color: #B8DAEF;
+    background-color: #656565;
+}
+.navClass li:hover{
+    border-bottom: #333333 solid 1px;
+    color:rgb(122, 118, 118);
+}
+.navClass li:hover .sub-menu {
+    z-index:1;
+    opacity:1;
+}
+ul li,ul li a
+{
+    text-decoration: none;
+    color : black;
+    padding: 2px;
+    line-height: 36px;
+    list-style: none;
+}
+footer
+{
+    background: #333333;
+    color : white;
+    margin-top : 50px;
+}
+.Content {
+    display : flex;
+    justify-items: center;
+    align-items: baseline;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.last
+{
+    background:  #808080
+}
+.address
+{
+    padding : 10px;
+    line-height: 22px;
+}
+.footerContent
+{
+    display : flex;
+    justify-items: center;
+    align-items: baseline;
+    flex-direction: column;
+    padding : 15px;
+    justify-content: flex-start;
+}
+footer ul li,footer ul li a
+{
+    text-decoration: none;
+    color : white;
+    padding: 2px;
+    line-height: 36px;
+    list-style: none;
+}
